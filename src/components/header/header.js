@@ -20,15 +20,13 @@ export default class Header extends Component {
           <div className="banner-text">
             <h1 className="responsive-headline">Richard Pattinson</h1>
             <h3>I'm a London based <span>full-stack developer</span>,  creating awesome and unique websites and tools
-              and learning as many technologies and frameworks as I can get my hands on. Looking for work and mentorship in this next phase of my career! Let's <a className="smoothscroll" href="#about">start scrolling</a>
+              and learning as many technologies and frameworks as I can get my hands on. TDD afficionado, python and react lover looking for work and mentorship in this next phase of my career! Let's <a className="smoothscroll" href="#about">start scrolling</a>
               and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul className="social">
-              <li><a href="#"><i className="fa fa-facebook" /></a></li>
-              <li><a href="#"><i className="fa fa-twitter" /></a></li>
-              <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-              <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="#"><i className="fa fa-instagram" /></a></li>
+              <li><a href="https://github.com/richardpattinson"><i className="fa fa-github" /></a></li>
+              <li><a href="https://www.linkedin.com/in/richard-pattinson-1517b578/"><i className="fa fa-linkedin" /></a></li>
+              <li><a href="richie.pattinson@gmail.com"><i className="fa fa-email" /></a></li>
               <li><a href="#"><i className="fa fa-dribbble" /></a></li>
               <li><a href="#"><i className="fa fa-skype" /></a></li>
             </ul>
