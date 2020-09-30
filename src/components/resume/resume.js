@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class Resume extends Component {
   render() {
     return (
       <React.Fragment>
-      {/*generated code*/}
-      <section id="resume">
+       <section id="resume">
         {/* Education
       ----------------------------------------------- */}
         <div className="row education">
@@ -14,25 +13,19 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>University of Life</h3>
-                <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
+                <h3>Makers Academy</h3>
+                <p className="info">Software Development Bootcamp <span>•</span> <em className="date">January 2020 - April 2020</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  Kicking off my degree in web development at Makers Academy was such a thrill. Here I learned the basics of the ruby programming language with a little javascript thrown in. Makers Gave me the skills to test drive my own applications, along with the git and agile practices neccessary to contribute to any development team.
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
+                <h3>Univeristy of Bath</h3>
+                <p className="info">B.Sc Degree in Chemistry <span>•</span> <em className="date">Septembder 2014 - June 2017</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                As part of my chemistry degree I completed a dissertation on modeling the surfaces of solid oxide exchange fuel cells, as well as producing detailed and data driven lab reports. As part off my disseratation I used the python backed Metadise modelling software to determine the properties of the oxide exchange cathode and these properties were used to generate a 3D crystal structure. This project introduced me to the python programming language and prompted me to continue learn the language independently. I'll never forget my time at university, or the friends I made along the way.
                 </p>
               </div>
             </div> {/* item end */}
@@ -47,28 +40,53 @@ export default class Header extends Component {
           <div className="nine columns main-col">
             <div className="row item">
               <div className="twelve columns">
-                <h3>Awesome Design Studio</h3>
-                <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+                <h3>Hamsphire Trust Bank</h3>
+                <p className="info">It Department Helpdesk <span>•</span> <em className="date">January 2019 - December 2019</em></p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                • Compiling financial reporting and tracking documents<br></br>
+                •  Technical support and ticket handling<br></br>
+                •  Handling developing business apps using mattsoft and building API integration's with experian using snaplogic.<br></br>
+                •  Leading team meetings and operational Metrics Reporting<br></br>
                 </p>
               </div>
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
-                <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                <h3>Host Staffing </h3>
+                <p className="info">Contractor <span>•</span> <em className="date">October 2018 - July 2019</em></p>
                 <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                • Running festival events<br></br>
+                • Plate waiting, manual carrying<br></br>
+                • Leading small teams of people to deliver fantastic customer experiences.<br></br>
                 </p>
               </div>
-            </div> {/* item end */}
+            </div>
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>DanceStore Ltd</h3>
+                <p className="info">IT Manager <span>•</span> <em className="date">University Holidays August 2015 - October 2018</em></p>
+                <p>
+                • Updating and managing the Totaldance website<br></br>
+                • Filing bug reports<br></br>
+                • Organising email promotion campaigns<br></br>
+                • Integrating a stock administration system and technical support.<br></br>
+                </p>
+              </div>
+            </div>
+            <div className="row item">
+              <div className="twelve columns">
+                <h3>IBM </h3>
+                <p className="info">PSM Analyst <span>•</span> <em className="date">July 2013 - May 2014</em></p>
+                <p>
+                • Leading team meetings/conference calls<br></br>
+                • On-site compliance auditing of data centers<br></br>
+                • Data Analysis and Presentation<br></br>
+                • Accessing SQL and CIRATS Databases<br></br>
+                • Interfacing with customers and internal IBM stakeholders<br></br>
+                • Operational metrics reporting and organising internal IBM events.<br></br>
+                </p>
+              </div>
+            </div>
           </div> {/* main-col end */}
         </div> {/* End Work */}
         {/* Skills
@@ -78,25 +96,26 @@ export default class Header extends Component {
             <h1><span>Skills</span></h1>
           </div>
           <div className="nine columns main-col">
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-              voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-              voluptatem sequi nesciunt.
+            <p>
+            • Agile development, test-driven development, pair programming, storyboarding, process diagramming.<br></br>
+            • A quick study, willing and able to pick up any tech stack.<br></br>
+            • Excellent team player, strong social skills and emotional intelligence, confident remote worker.<br></br>
+            • Managing teams, leading meetings, organised with effective presentation skills.<br></br>
+
             </p>
             <div className="bars">
               <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                <li><span className="bar-expand photoshop" /><em>Javascript</em></li>
+                <li><span className="bar-expand illustrator" /><em>Python</em></li>
+                <li><span className="bar-expand wordpress" /><em>Ruby</em></li>
                 <li><span className="bar-expand css" /><em>CSS</em></li>
                 <li><span className="bar-expand html5" /><em>HTML5</em></li>
-                <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                <li><span className="bar-expand jquery" /><em>Git</em></li>
               </ul>
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}
         </div> {/* End skills */}
       </section>
-    );
       </React.Fragment>
     );
   }

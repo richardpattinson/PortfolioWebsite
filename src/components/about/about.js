@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
+export default class About extends Component {
   render() {
     return (
       <React.Fragment>
       <section id="about">
+      <nav id="nav-wrap">
+          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+          <ul id="nav" className="nav">
+            <li className="current"><a className="smoothscroll" href="#about">Home</a></li>
+            <li><a className="smoothscroll" href="#resume">Resume</a></li>
+            <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+          </ul> {/* end #nav */}
+        </nav>
         <div className="row">
           <div className="three columns">
             <img className="profile-pic" src="images/profilepic.jpg" alt="" />
@@ -16,9 +25,8 @@ export default class Header extends Component {
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
                 <p className="address">
-                  <span>Richard Pattinson</span><br />
-                  <span>07429 311 299</span><br />
-                  <span>richie.pattinson@gmail.com</span>
+                  <span>mobile: (+44)7429 311 299</span><br />
+                  <span>email: richie.pattinson@gmail.com</span>
                 </p>
               </div>
               <div className="columns download">
@@ -26,11 +34,10 @@ export default class Header extends Component {
                   <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
                 </p>
               </div>
-            </div> 
-          </div> 
+            </div> {/* end row */}
+          </div> {/* end .main-col */}
         </div>
       </section>
-    );
       </React.Fragment>
     );
   }
