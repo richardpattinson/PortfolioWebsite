@@ -17,7 +17,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Wanderlist</h5>
-                        <p>Web Application</p>
+                        <p>Rails route sharing Application</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -31,7 +31,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Simple Asset Tracker</h5>
-                        <p>Web Application</p>
+                        <p>Django/React asset tracking application</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -45,7 +45,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Amplify Notes</h5>
-                        <p>AWS App</p>
+                        <p>AWS amplify notes app</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>MachineLearning Demo</h5>
-                        <p>Algorithm Ranking</p>
+                        <p>Machine learning test script</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
