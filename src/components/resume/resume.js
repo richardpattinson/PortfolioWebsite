@@ -22,8 +22,8 @@ export default class Resume extends Component {
             </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
-                <h3>Univeristy of Bath</h3>
-                <p className="info">B.Sc Degree in Chemistry <span>•</span> <em className="date">Septembder 2014 - June 2017</em></p>
+                <h3>University of Bath</h3>
+                <p className="info">B.Sc Degree in Chemistry <span>•</span> <em className="date">September 2014 - June 2017</em></p>
                 <p>
                 As part of my chemistry degree I completed a dissertation on modeling the surfaces of solid oxide exchange fuel cells, as well as producing detailed and data driven lab reports. As part off my disseratation I used the python backed Metadise modelling software to determine the properties of the oxide exchange cathode and these properties were used to generate a 3D crystal structure. This project introduced me to the python programming language and prompted me to continue learn the language independently. I'll never forget my time at university, or the friends I made along the way.
                 </p>
@@ -109,8 +109,7 @@ export default class Resume extends Component {
                 <li><span className="bar-expand html5" /><em>Python</em></li>
                 <li><span className="bar-expand html5" /><em>Ruby</em></li>
                 <li><span className="bar-expand wordpress" /><em>CSS</em></li>
-                <li><span className="bar-expand git" /><em>HTML5</em></li>
-                <li><span className="bar-expand jquery" /><em>Git</em></li>
+                <li><span className="bar-expand jquery" /><em>HTML5</em></li>
               </ul>
             </div>{/* end skill-bars */}
           </div> {/* main-col end */}

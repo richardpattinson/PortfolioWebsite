@@ -59,7 +59,7 @@ export default class Portfolio extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>MachineLearning Demo</h5>
-                        <p>Machine learning test script</p>
+                        <p>Machine learning</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
