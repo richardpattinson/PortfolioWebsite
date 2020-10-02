@@ -11,22 +11,22 @@ export default class Portfolio extends Component {
             {/* portfolio-wrapper */}
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="https://wanderlist-makers.herokuapp.com/" target="_blank">
+                <a href="https://wanderlist-makers.herokuapp.com/" target="_blank">
+                  <div className="item-wrap">
                     <img alt="" src="images/portfolio/wanderlist.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Wanderlist</h5>
                         <p>Rails route sharing Application</p>
                       </div>
-                    </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
+                    </div>            
+                    <div className="link-icon"><i className="icon-plus" /></div>                 
+                  </div>
+                </a>
               </div> {/* item end */}
               <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="https://simple-asset-tracker.herokuapp.com/" title>
+                <a href="https://simple-asset-tracker.herokuapp.com/" target="_blank">
+                  <div className="item-wrap">                
                     <img alt="" src="images/portfolio/laptop.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -35,8 +35,8 @@ export default class Portfolio extends Component {
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
+                  </div>
+                </a>
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                     <img alt="" src="images/portfolio/amplify.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Amplify Notes</h5>
+                        <h5>Amplify Notes (down for maintenance)</h5>
                         <p>AWS amplify notes app</p>
                       </div>
                     </div>
@@ -53,8 +53,8 @@ export default class Portfolio extends Component {
                 </div>
               </div> {/* item end */}
               <div className="columns portfolio-item">
-                <div className="item-wrap">
-                  <a href="#modal-04">
+                <a href="https://github.com/richardpattinson/MachineLearning" target="_blank">
+                  <div className="item-wrap">
                     <img alt="" src="images/portfolio/algorithm.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
@@ -62,9 +62,9 @@ export default class Portfolio extends Component {
                         <p>Machine learning</p>
                       </div>
                     </div>
-                    <div className="link-icon"><i className="icon-plus" /></div>
-                  </a>
-                </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>                 
+                  </div>
+                </a>
               </div> {/* item end */}  {/* item end */}
             </div> {/* portfolio-wrapper end */}
           </div> {/* twelve columns end */}

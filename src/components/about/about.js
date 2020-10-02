@@ -11,6 +11,8 @@ export default class About extends Component {
             <li className="current"><a className="smoothscroll" href="#about">Home</a></li>
             <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+            <li><a href="https://github.com/richardpattinson#" target="_blank"><i className="fa fa-github" /></a></li>
+            <li><a href="https://www.linkedin.com/in/richard-pattinson-1517b578/" target="_blank"><i className="fa fa-linkedin" /></a></li>
           </ul> {/* end #nav */}
         </nav>
         <div className="row">
