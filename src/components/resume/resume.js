@@ -38,6 +38,20 @@ export default class Resume extends Component {
             <h1><span>Work</span></h1>
           </div>
           <div className="nine columns main-col">
+          <div className="row item">
+              <div className="twelve columns">
+                <h3>Department for Education</h3>
+                <p className="info">Software Developer <span>•</span> <em className="date">January 2021 - Present</em></p>
+                <p>
+                • Scoping, designing and building new features for the apply for teacher training service<br></br>
+                • Maintaing and extending the suite of 'becoming a teacher' apis for use by universities and teacher training institutions<br></br>
+                • Peer reviewing pull requests, defining and refining team style<br></br>
+                • Test and behavior diven development using agile and kanban workflows<br></br>
+                • Leading team rituals and improving team processes <br></br>
+                • Working with designers and user researchers to produce fantastic, accessible user experiences<br></br>
+                </p>
+              </div>
+            </div> {/* item end */}
             <div className="row item">
               <div className="twelve columns">
                 <h3>Hamsphire Trust Bank</h3>
@@ -103,15 +117,6 @@ export default class Resume extends Component {
             • Managing teams, leading meetings, organised with effective presentation skills.<br></br>
 
             </p>
-            <div className="bars">
-              <ul className="skills">
-                <li><span className="bar-expand photoshop" /><em>Javascript</em></li>
-                <li><span className="bar-expand html5" /><em>Python</em></li>
-                <li><span className="bar-expand html5" /><em>Ruby</em></li>
-                <li><span className="bar-expand wordpress" /><em>CSS</em></li>
-                <li><span className="bar-expand jquery" /><em>HTML5</em></li>
-              </ul>
-            </div>{/* end skill-bars */}
           </div> {/* main-col end */}
         </div> {/* End skills */}
       </section>
